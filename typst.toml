@@ -1,0 +1,13 @@
+[package]
+name = "toolbox"
+version = "0.1.0"
+entrypoint = "toolbox.typ"
+authors = ["Nathan Jessurun"]
+license = "Unlicense"
+description = "Misc. helper utilities"
+repository = "https://github.com/ntjess/toolbox"
+keywords = ["misc"]
+
+
+[tool.packager]
+paths = ["toolbox.typ", "cetz-plus", "shadow-box.typ"]
