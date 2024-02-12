@@ -23,8 +23,15 @@
 `.text
 
 #let shadow-box(
-  content, shadow-fill: black, opacity: 0.5, ..args,
-  dx: 0pt, dy: 0pt, radius: 0pt, blur: 10, blur-margin: 5,
+  content,
+  shadow-fill: black,
+  opacity: 0.5,
+  dx: 0pt,
+  dy: 0pt,
+  radius: 0pt,
+  blur: 10,
+  blur-margin: 5,
+  ..args,
 ) = {
   style(styles => layout(size => {
     let named = args.named()
